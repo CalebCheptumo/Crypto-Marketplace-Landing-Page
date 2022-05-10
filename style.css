@@ -24,3 +24,13 @@
     --light-color:#eee;
     --light-hover-color:#c8c8c8;
 }
+
+
+body{
+    background: var(--light-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--body-font);
+    overflow-x: hidden;
+    line-height: 1.5;
+}
