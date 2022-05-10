@@ -142,3 +142,8 @@ h6{
     z-index: -1;
     
 }
+
+.btn:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
