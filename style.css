@@ -99,3 +99,18 @@ h6{
     line-height: 1.25;
 }
 
+.hr{
+    background-color: #ccc;
+    border: none;
+    height: 1px;
+    margin-bottom: 2px;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1392px;
+    width: 85%;
+
+}
+
+
