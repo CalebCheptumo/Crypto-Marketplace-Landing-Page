@@ -179,3 +179,43 @@ h6{
     display:inline-block;
     position: relative;
 }
+
+.notif-dot:after{
+    background: #ff4242;
+    border-radius: 50%;
+    box-sizing: content-box;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(30% -30%);
+    width: 10px;
+    z-index: 1;
+}
+.notif-dot--outline:after {
+    border: 3px solid #eee;
+    height: 8px;
+    transform: translate(3px, -3px);
+    width: 8px
+}
+
+.notif-dot--check:after {
+    background-color: var(--primary-color);
+    background-image: url(img/check.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16px;
+    transform: translate(0);
+    width: 16px
+}
+
+.section-margin {
+    margin-bottom: 32px
+}
+
+@media (min-width:768px) {
+    .section-margin{
+        margin-bottom: 56px;
+    }
+}
