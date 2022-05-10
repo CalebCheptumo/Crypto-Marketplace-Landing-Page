@@ -43,3 +43,7 @@ button{
     font-size: inherit;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
