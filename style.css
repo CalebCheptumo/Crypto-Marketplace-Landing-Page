@@ -47,3 +47,20 @@ img{
     display: block;
     max-width: 100%;
 }
+
+input{
+    background: none;
+    border: none;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+::-moz-placeholder{
+    color: #999;
+}
+:-ms-input-placeholder{
+    color: #999;
+}
+::placeholder{
+    color: #999;
+}
