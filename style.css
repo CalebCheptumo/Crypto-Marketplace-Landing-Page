@@ -71,3 +71,10 @@ ul{
 a{
     text-decoration: none;
 }
+
+a,h1,h2,h4,h6{
+    color: var(--title-color);
+}
+h1,h2,h4,h6{
+    font-weight: 500;
+}
