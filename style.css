@@ -113,4 +113,19 @@ h6{
 
 }
 
+.btn{
+    background: var(--btn-bg);
+    border-radius: 8px;
+    color: var(--btn-color,var(--title-color));
+    font-weight: 500;
+    line-height: 1.188;
+    overflow: hidden;
+    padding: 10.5px 12px;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+
+
+}
+
 
