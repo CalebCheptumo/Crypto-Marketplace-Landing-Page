@@ -1,2 +1,26 @@
 /*google font*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*,
+*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    /*font*/
+    --body-font: "Inter" , sans-serif;
+
+    /*color*/
+    --text-color:#555;
+    --text-hover-color:#888;
+    --title-color:#111;
+    --normal-font-size:16px;
+    --primary-color:#42ffd2;
+    --primary-hover-color:#00f5ba;
+    --secondary-color:#fff;
+    --secondary-hover-color:#d9d9d9;
+    --light-color:#eee;
+    --light-hover-color:#c8c8c8;
+}
