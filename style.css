@@ -112,6 +112,9 @@ h6{
     width: 85%;
 
 }
+.nav {
+    margin-top: 36px;
+}
 .nav__container{
     align-items: center;
     display: flex;
@@ -241,6 +244,7 @@ h6{
     max-width: none;
     width: 32px;
 }
+
 
 
 .btn{
