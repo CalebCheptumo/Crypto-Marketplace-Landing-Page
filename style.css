@@ -112,6 +112,18 @@ h6{
     width: 85%;
 
 }
+.nav__container{
+    align-items: center;
+    display: flex;
+}
+.nav__toggler{
+    cursor: pointer;
+    display: grid;
+    height: 19px;
+    margin-right: 24px;
+    place-items: center;
+    z-index: 9999;
+}
 
 .btn{
     background: var(--btn-bg);
@@ -237,3 +249,36 @@ h6{
     align-self: center;
     grid-row: span 2;
 }
+.no-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.swiper {
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro-cards-wrapper {
+    display: grid;
+    gap: 24px;
+    grid-template: 1fr;
+}
+
+@media( min-width : 768px) {
+    .intro-cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.intro-card {
+    background-color: var(--bg-color, #fff);
+    border-radius: 8px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2 , ifr);
+    padding: 32px;
+}
+
+
