@@ -253,7 +253,7 @@ h6{
 }
 .hero__intro{
     max-width: 253px;
-    padding: 56px;
+    padding-bottom: 56px;
 }
 @media (min-width:768px) {
     .hero__intro {
@@ -265,6 +265,62 @@ h6{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+}
+.hero__cta , .hero__greet{
+    margin-bottom: 24px;
+}
+
+.hero__cta span:nth-of-type(2){
+    display: none;
+}
+@media (min-width:768px){
+    .hero__cta span:nth-of-type(2){
+        display: inline;
+    }
+}
+@media (min-width:768px) {
+    .hero__cta span:first-of-type{
+        display: none;
+    }
+}
+.upsell .hero__cta {
+    max-width: 253px
+}
+
+@media (min-width:768px) {
+    .upsell .hero__cta {
+        max-width: 340px
+    }
+
+    .upsell .hero__create-btn span:first-of-type, .upsell .hero__desc span:first-of-type {
+        display: block
+    }
+}
+
+.upsell .hr:nth-of-type(2) {
+    margin-bottom: 0
+}
+
+
+
+.hero__desc{
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+@media (min-width:768px) {
+    .hero__desc span:first-of-type {
+        display: none
+    }
+}
+
+.hero__desc span:nth-of-type(2) {
+    display: none
+}
+
+@media (min-width:768px) {
+    .hero__desc span:nth-of-type(2) {
+        display: inline
+    }
 }
 .btn{
     background: var(--btn-bg);
@@ -423,3 +479,4 @@ h6{
 }
 
 
+}
