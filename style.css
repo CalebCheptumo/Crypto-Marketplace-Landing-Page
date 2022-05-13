@@ -229,3 +229,6 @@ h6{
     row-gap: 16px;
 }
 
+.section-heading p {
+    grid-row: 2;
+}
