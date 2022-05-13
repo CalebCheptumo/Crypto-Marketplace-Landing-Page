@@ -186,7 +186,7 @@ h6{
 .nav__links-wrapper{
     display: flex;
     flex-direction: column;
-    width: 10%;
+    width: 100%;
 }
 
 @media (min-width:992px) {
@@ -204,6 +204,42 @@ h6{
     line-height: 1.188;
     padding:22px;
     position: relative;
+}
+.nav__link:hover {
+    background: #eee;
+    border-radius: 8px;
+}
+@media (min-width:992px) {
+    .nav__link {
+        padding: 0
+    }
+
+    .nav__link:after {
+        background-color: currentColor;
+        bottom: -2px;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform .5s;
+        width: 100%
+    }
+
+    .nav__link:hover {
+        background: none;
+        border-radius: 0
+    }
+
+    .nav__link:hover:after {
+        transform: scaleX(1);
+        transform-origin: left
+    }
+}
+.nav__user img {
+    max-width: none;
+    width: 32px;
 }
 
 
