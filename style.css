@@ -322,6 +322,16 @@ h6{
         display: inline
     }
 }
+.hero_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.btn--primary{
+    --btn-bg:var(--primary-color);
+    --btn-bg-hover:var(--secondary-hover-color)
+}
 .btn{
     background: var(--btn-bg);
     border-radius: 8px;
