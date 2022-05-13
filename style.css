@@ -232,3 +232,8 @@ h6{
 .section-heading p {
     grid-row: 2;
 }
+
+.section-heading button {
+    align-self: center;
+    grid-row: span 2;
+}
