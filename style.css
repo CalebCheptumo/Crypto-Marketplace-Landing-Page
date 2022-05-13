@@ -189,8 +189,22 @@ h6{
     width: 10%;
 }
 
+@media (min-width:992px) {
+    .nav__links-wrapper {
+        flex-direction: row;
+        gap: 22px;
+        justify-content: flex-end;
+        margin-right: 22px
+    }
+}
 
-
+.nav__link {
+    display: block;
+    font-weight: 500;
+    line-height: 1.188;
+    padding:22px;
+    position: relative;
+}
 
 
 .btn{
