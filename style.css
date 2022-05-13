@@ -332,6 +332,10 @@ h6{
     --btn-bg:var(--primary-color);
     --btn-bg-hover:var(--secondary-hover-color)
 }
+.btn--secondary{
+    --btn-bg:var(--light-color);
+    --btn-bg-hover:var(--light-hover-color);
+}
 .btn{
     background: var(--btn-bg);
     border-radius: 8px;
