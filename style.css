@@ -251,8 +251,21 @@ h6{
 .hero__container, .hero__intro-wrapper {
     position: relative;
 }
-
-
+.hero__intro{
+    max-width: 253px;
+    padding: 56px;
+}
+@media (min-width:768px) {
+    .hero__intro {
+        max-width: 340px
+    }
+.hero__greet{
+    color: #999;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .btn{
     background: var(--btn-bg);
     border-radius: 8px;
