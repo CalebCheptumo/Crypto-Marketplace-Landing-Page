@@ -127,6 +127,9 @@ h6{
 .nav__logo {
     margin-right: auto;
 }
+.nav__logo img {
+    max-width: none;
+}
 
 .btn{
     background: var(--btn-bg);
