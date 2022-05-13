@@ -219,3 +219,13 @@ h6{
         margin-bottom: 56px;
     }
 }
+
+.section-heading {
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 32px;
+    row-gap: 16px;
+}
+
