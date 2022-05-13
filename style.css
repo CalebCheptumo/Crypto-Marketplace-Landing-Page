@@ -245,6 +245,12 @@ h6{
     width: 32px;
 }
 
+.hero {
+    margin-top: 80px;
+}
+.hero__container, .hero__intro-wrapper {
+    position: relative;
+}
 
 
 .btn{
